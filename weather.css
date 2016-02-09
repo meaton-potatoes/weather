@@ -1,0 +1,42 @@
+body {
+  background-color: #ffde33;
+  background-size: 100% auto; background-repeat: no-repeat;
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnICB2aWV3Qm94PScwIDAgMTAwIDEwMCc+Cgk8bGluZWFyR3JhZGllbnQgaWQ9J2cxJyB4MT0nMCUnIHkxPScwJScgeDI9JzEwMCUnIHkyPScwJSc+CgkJPHN0b3Agb2Zmc2V0PScwJScgc3R5bGU9J3N0b3AtY29sb3I6I2ZmZmZmZjtzdG9wLW9wYWNpdHk6MScgLz4KCQk8c3RvcCBvZmZzZXQ9JzEwMCUnIHN0eWxlPSdzdG9wLWNvbG9yOiNmZmRlMzM7c3RvcC1vcGFjaXR5OjAnIC8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPGxpbmVhckdyYWRpZW50IGlkPSdnMicgeDE9JzAlJyB5MT0nMCUnIHgyPScwJScgeTI9JzEwMCUnPgoJCTxzdG9wIG9mZnNldD0nMCUnIHN0eWxlPSdzdG9wLWNvbG9yOiNmZmZmZmY7c3RvcC1vcGFjaXR5OjEnIC8+CgkJPHN0b3Agb2Zmc2V0PScxMDAlJyBzdHlsZT0nc3RvcC1jb2xvcjojZmZkZTMzO3N0b3Atb3BhY2l0eTowJyAvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxyYWRpYWxHcmFkaWVudCBpZD0nZzMnIGN4PScwJScgY3k9JzAlJyByPScxMDAlJz4KCQk8c3RvcCBvZmZzZXQ9JzAlJyBzdHlsZT0nc3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eToxJyAvPgoJCTxzdG9wIG9mZnNldD0nMTAwJScgc3R5bGU9J3N0b3AtY29sb3I6I2ZmZGUzMztzdG9wLW9wYWNpdHk6MCcgLz4KCTwvcmFkaWFsR3JhZGllbnQ+Cgk8ZyB0cmFuc2Zvcm09J3JvdGF0ZSg0NSkgdHJhbnNsYXRlKDIxLjIgLTQ5LjUpJz4KCQk8cmVjdCB4PSctNTAlJyB5PSctNTAlJyB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPScjMzc4OWNhJyAvPgoJCTxyZWN0IHg9JzUwJScgeT0nLTUwJScgd2lkdGg9JzI2JScgaGVpZ2h0PScxMDAlJyBmaWxsPSd1cmwoI2cxKScgLz4KCQk8cmVjdCB4PSctNTAlJyB5PSc1MCUnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzI2JScgZmlsbD0ndXJsKCNnMiknIC8+Cgk8cmVjdCB4PSc1MCUnIHk9JzUwJScgd2lkdGg9JzI2JScgaGVpZ2h0PScyNiUnIGZpbGw9J3VybCgjZzMpJyAvPgoJPC9nPgo8L3N2Zz4=);
+}
+
+#main {
+  font-family: 'News Cycle', sans-serif;
+  width: 50%;
+  margin: auto;
+  margin-top: 4em;
+  text-align: center;
+}
+
+h1, h2, #temp {
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+}
+
+#top_display, #bottom_display {
+  background: rgba(255,255,255,0.7);
+  text-align: center;
+  border-radius: 20px;
+}
+
+#top_display {
+  font-size: 1.5em;
+  margin: auto;
+}
+
+#bottom_display {
+  font-weight: bold;
+}
+
+#top_display table{
+  margin: auto;
+}
+
+#top_display table td {
+  padding-left: 1em;
+  padding-right: 1em;
+}
